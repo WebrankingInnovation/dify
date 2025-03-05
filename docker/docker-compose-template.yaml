@@ -243,6 +243,7 @@ services:
       - 'traefik.port=8010'
     networks:
       - chatbot-network
+      - default
   # The Weaviate vector store.
 #  weaviate:
 #    image: semitechnologies/weaviate:1.19.0
